@@ -21,13 +21,14 @@
     {{ .Hugo.Generator }}
 
     {{ "<!-- Stylesheets -->" | safeHTML }}
-    {{ if .IsPage }} <link rel="stylesheet" type="text/css" href="{{ "../built/screen.css" | absURL}}" /> {{ else }}
-    <link rel="stylesheet" type="text/css" href="{{ "built/screen.css" | absURL}}" /> {{ end }}
-    {{ if .IsPage }} <link rel="stylesheet" type="text/css" href="{{ "../css/casper-two.css" | absURL}}" /> {{ else }}
-    <link rel="stylesheet" type="text/css" href="{{ "css/casper-two.css" | absURL}}" /> {{ end }}
+    {{ if .Site.Params.tags }} <link rel="stylesheet" type="text/css" href="{{ "../../built/screen.css" | absURL}}" /> {{else}}{{ if .IsPage }} <link rel="stylesheet" type="text/css" href="{{ "../built/screen.css" | absURL}}" /> {{ else }}
+    <link rel="stylesheet" type="text/css" href="{{ "built/screen.css" | absURL}}" /> {{ end }}{{ end }}
+    {{ if .Site.Params.tags }} <link rel="stylesheet" type="text/css" href="{{ "../../css/casper-two.css" | absURL}}" /> {{ else }}{{ if .IsPage}} <link rel="stylesheet" type="text/css" href="{{ "../css/casper-two.css" | absURL}}" /> {{ else }}
+    <link rel="stylesheet" type="text/css" href="{{ "css/casper-two.css" | absURL}}" /> {{ end }}{{ end }}
+    
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
     {{ range .Site.Params.customCSS }} <link rel="stylesheet" href="{{ . | absURL }}" /> {{ end }}
-
+    
     {{ if .Site.Params.RSSLink}}<link href="{{.Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{else}}{{ if eq .URL "/" }}<link href="{{ "index.xml" | absURL}}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }} {{ end }}
 
 </head>
