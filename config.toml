@@ -1,0 +1,57 @@
+#canonifyurls    = true
+#relativeurls    = true
+baseurl         = "" #"http://www.wingchunqigong.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Wing Chun Qi Gong"
+  subtitle    = "Upgrade body, energy and mind"
+
+  cover       = "img/bamboo_banner.jpg"
+  description = "Teaching the world about Wing Chun Qi Gong."
+  metaDescription = "Wing Chun Qi Gong"
+  googleAnalytics = "Wing Chun Qi Gong"
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = ""
+  fbName = "wingchunqigong"
+  githubName = "" 
+  youtubeName = "wingchunqigong"
+  linkedinName = ""
+  mediumName = ""
+  steemitName = "wingchunqigong"
+  dtubeName = "wingchunqigong"
+
+  logo = "" #"/img/logo.jpg"
+  orgName = "WingChunLingTungQiGong"
+  orgWebsite = "https://www.wingchunqigong.com"
+  orgDescription = "Transforming Body, Energy an Mind"
+
+  author = "Jordan Del-Grande"
+  authorAvatar = "img/profile.jpg"
+  authorLocation = "Canberra, ACT"
+  authorWebsite = "https://wingchun.eth.link"
+  authorDescription = "Sifu of Wing Chun Qi Gong"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspertwo"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Videos"
+  url = "/tags/videos/"
+  weight = 100
