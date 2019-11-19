@@ -18,11 +18,11 @@ paginate        = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = ""
+  twitterName = "wingchunqg"
   fbName = "wingchunqigong"
   githubName = "" 
   youtubeName = "wingchunqigong"
-  linkedinName = ""
+  linkedinName = "jordan-d-7946751"
   mediumName = ""
   steemitName = "wingchunqigong"
   dtubeName = "wingchunqigong"
@@ -35,7 +35,7 @@ paginate        = 6
   author = "Jordan Del-Grande"
   authorAvatar = "img/profile.jpg"
   authorLocation = "Canberra, ACT"
-  authorWebsite = "https://wingchun.eth.link"
+  authorWebsite = "/content/aboutme.md" #"https://wingchun.eth.link"
   authorDescription = "Sifu of Wing Chun Qi Gong"
 
   pageNotFoundTitle = "404 - Page not found"
