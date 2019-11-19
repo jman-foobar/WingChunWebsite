@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: true
 image: ""
 tags: ["videos"]
-image: "/img/Courses-Banner.jpg"
+image: "../img/Courses-Banner.jpg"
 authorAvatar: "/img/profile.jpg"
 ---
 # H1

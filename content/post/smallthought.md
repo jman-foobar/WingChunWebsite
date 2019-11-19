@@ -6,7 +6,7 @@ linktitle: Wing Chun Small Thought Qi Gong
 tags: ["videos"]
 title: Small Thought Qi Gong
 weight: 10
-image: "img/wing-chun-logo.jpeg"
+image: "../img/wing-chun-logo.jpeg"
 authorAvatar: "/img/profile.jpg"
 ---
 
