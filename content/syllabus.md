@@ -27,7 +27,7 @@ One of the best features of the course, is I have organised the advancement in a
 
 In our school, this stage is translated as the Way of Inner Silence to Cultivate Life Force Energy. This course has basic teachings that the student then learns to combine into a well-oiled machine that integrate with one another to create a sum far greater than the parts. So although Small Thought is usually the first practice taught, do not misunderstand the advanced nature of this form, as one will continue to return to it in amazement. 
 
-<img style="float: left;" src="/img/1.-Wing-Chun-Muscle-Tendon-Qi-Gong-Wing-Chun-Wun-Yuen-Ling-Tung-Qi-Gong-small.jpg">**Wing Chun Muscle Tendon Changing Wing Chun - 詠春混元靈通氣功**
+<img style="float: left;" src="/img/1.-Wing-Chun-Muscle-Tendon-Qi-Gong-Wing-Chun-Wun-Yuen-Ling-Tung-Qi-Gong-small.jpg">**Wing Chun Muscle Tendon Changing Qi Gong - 詠春混元靈通氣功**
 
 A special type of Yi Jin Jing (Muscle/Tendon Strengthening) Qi Gong (氣功) consisting of movements that strengthen the ‘whole’ body, stimulate the nervous system, endocrine system, prefrontal lobe, clear the mind and produce natural healing effects. It is a complete set of movements authentic to Wing Chun that provides numerous benefits, leading to an opening of the bodies energetic system.
 

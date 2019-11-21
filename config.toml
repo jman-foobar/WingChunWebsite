@@ -1,5 +1,5 @@
-#canonifyurls    = true
-#relativeurls    = true
+#canonifyurls    = true # For IPFS to work
+#relativeurls    = true # For IPFS to work
 baseurl         = "" #"http://www.wingchunqigong.com"
 theme           = "casper-two"
 languageCode    = "en-US"
